@@ -61,9 +61,8 @@ export default function App() {
       return;
     }
 
-    toast.info(`Nuevo mensaje de ${message.from}`, {
-      autoClose: 5000,
-    });
+    alert(`Nuevo mensaje de ${message.from}` );
+
   };
 
   const updateUserList = (users) => {
